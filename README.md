@@ -1,9 +1,7 @@
 Paython-boilerpalte-pacakge
 ==========================
 
-Boilerpalte Pacakge
-
-## Cakedoctor
+##Boilerpalte Pacakge
 
 Basic structure of package is
 
