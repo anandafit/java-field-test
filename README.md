@@ -1,7 +1,7 @@
-cakedoctor-package
+Paython-boilerpalte-pacakge
 ==========================
 
-CakeDoctor Package
+Boilerpalte Pacakge
 
 ## Cakedoctor
 
