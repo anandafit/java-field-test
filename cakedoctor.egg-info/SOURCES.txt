@@ -1,0 +1,7 @@
+README.md
+setup.py
+cakedoctor.egg-info/PKG-INFO
+cakedoctor.egg-info/SOURCES.txt
+cakedoctor.egg-info/dependency_links.txt
+cakedoctor.egg-info/not-zip-safe
+cakedoctor.egg-info/top_level.txt
