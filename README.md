@@ -1,16 +1,16 @@
 Paython-boilerpalte-pacakge
 ==========================
 
-##Boilerpalte Pacakge
+## Boilerpalte Pacakge
 
 Basic structure of package is
 
 ```
 ├── README.md
-├── cakedoctor
+├── monitor
 │   ├── __init__.py
-│   ├── cakedoctor.py
-│   ├── cakedoctor_listener.py
+│   ├── monitor.py
+│   ├── monitor_listener.py
 │   ├── event.py
 │   ├── orchestration_registry
         ├── __init__.py
@@ -62,7 +62,7 @@ To run the unit test from root dir, run the following,
 There is a ```.travis.yml``` file that is set up to run your tests for python 2.7
 and python 3.2, should you choose to use it.
 
-## How to create cakedoctor distributed pacakges
+## How to create distributed pacakges
 
 Make sure you have the latest versions of setuptools and wheel installed:
 ```python -m pip install --user --upgrade setuptools wheel```
@@ -76,4 +76,4 @@ This command should output a lot of text and once completed should generate two 
 ``` find . | grep -E "(__pycache__|\.pyc|\.pyo$)" | xargs rm -rf ```
 
 ## The Best Practices while coding
-Cakedoctor is following Google Python Style Guide  https://github.com/google/styleguide/blob/gh-pages/pyguide.md#38-comments-and-docstrings
+Here it follow Google Python Style Guide  https://github.com/google/styleguide/blob/gh-pages/pyguide.md#38-comments-and-docstrings

@@ -1,0 +1,7 @@
+README.md
+setup.py
+monitor.egg-info/PKG-INFO
+monitor.egg-info/SOURCES.txt
+monitor.egg-info/dependency_links.txt
+monitor.egg-info/not-zip-safe
+monitor.egg-info/top_level.txt

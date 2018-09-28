@@ -1,0 +1,5 @@
+[
+  "tests/unit/test_example.py::TestExample::test_helper",
+  "tests/unit/test_version.py::TestVersion::test_set_version",
+  "tests/unit/test_version.py::TestVersion::test_version_immutable"
+]

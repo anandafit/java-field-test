@@ -1,4 +1,4 @@
-from cakedoctor.version import Version
+from monitor.version import Version
 from tests import *
 from tests.helpers import *
 
