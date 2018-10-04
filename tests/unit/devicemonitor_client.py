@@ -16,12 +16,12 @@ class WhoAsk( MonitorListener ):
         self._device_monitor = my_device_monitor
         self._device_monitor.add_event_listener(self)
         
-    def monitor_deviceone(self):
-        my_operation = DeviceMonitorOperation("deviceone", "monitor_deviceone")
+    def monitor_via_specialist_one(self):
+        my_operation = DeviceMonitorOperation("specialist_one", "monitor_via_specialist_one")
         self._device_monitor.dispatch_operation(self, my_operation)
 
-    def monitor_devicetwo(self):
-        my_operation = DeviceMonitorOperation("devicetwo", "monitor_devicetwo")
+    def monitor_via_specialist_two(self):
+        my_operation = DeviceMonitorOperation("specialist_two", "monitor_via_specialist_two")
         self._device_monitor.dispatch_operation(self, my_operation)    
    
     def on_answer_event(self, event):
@@ -40,12 +40,12 @@ class WhoAsk2( MonitorListener ):
         self._device_monitor = my_device_monitor
         self._device_monitor.add_event_listener(self)
 
-    def monitor_deviceone(self):
-        my_operation = DeviceMonitorOperation("deviceone", "monitor_deviceone")
+    def monitor_via_specialist_one(self):
+        my_operation = DeviceMonitorOperation("specialist_one", "monitor_via_specialist_one1")
         self._device_monitor.dispatch_operation(self, my_operation)
 
-    def monitor_devicetwo(self):
-        my_operation = DeviceMonitorOperation("devicetwo", "monitor_devicetwo")
+    def monitor_via_specialist_two(self):
+        my_operation = DeviceMonitorOperation("specialist_two", "monitor_via_specialist_two2")
         self._device_monitor.dispatch_operation(self, my_operation)    
            
    

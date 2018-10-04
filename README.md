@@ -1,7 +1,8 @@
-Paython-boilerpalte-pacakge
+Operation-monitor
 ==========================
+This python monitoring package can be used to monitor any kind of system operation asynchronously. Idea of this package is the provide a ground level package structure which provide embed asynchronous operation monitoring capabilities. 
 
-## Boilerpalte Pacakge
+In side the monitor package, we have use concept called specialist. The specialist should be able to monitor given any operation in a isolate fashion and response back asynchronously. 
 
 Basic structure of package is
 
@@ -17,7 +18,7 @@ Basic structure of package is
         ├── registry.py
 │   ├── specialists
         ├── __init__.py
-        ├── touch
+        ├── specialist_one
             ├── __init__.py
             ├── executor.py        
 │   └── version.py

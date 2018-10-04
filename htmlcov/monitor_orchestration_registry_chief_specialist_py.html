@@ -81,34 +81,34 @@
 <p id="n12" class="pln"><a href="#n12">12</a></p>
 <p id="n13" class="stm run hide_run"><a href="#n13">13</a></p>
 <p id="n14" class="pln"><a href="#n14">14</a></p>
-<p id="n15" class="stm run hide_run"><a href="#n15">15</a></p>
+<p id="n15" class="stm mis"><a href="#n15">15</a></p>
 <p id="n16" class="pln"><a href="#n16">16</a></p>
 <p id="n17" class="pln"><a href="#n17">17</a></p>
-<p id="n18" class="stm mis"><a href="#n18">18</a></p>
+<p id="n18" class="stm run hide_run"><a href="#n18">18</a></p>
 <p id="n19" class="pln"><a href="#n19">19</a></p>
 <p id="n20" class="stm mis"><a href="#n20">20</a></p>
 <p id="n21" class="pln"><a href="#n21">21</a></p>
 
             </td>
             <td class="text">
-<p id="t1" class="stm run hide_run"><span class="key">from</span> <span class="nam">monitor</span><span class="op">.</span><span class="nam">specialists</span><span class="op">.</span><span class="nam">deviceone</span> <span class="key">import</span> <span class="nam">executor</span> <span class="key">as</span> <span class="nam">deviceone_specialist</span><span class="strut">&nbsp;</span></p>
-<p id="t2" class="stm run hide_run"><span class="key">from</span> <span class="nam">monitor</span><span class="op">.</span><span class="nam">specialists</span><span class="op">.</span><span class="nam">devicetwo</span> <span class="key">import</span> <span class="nam">executor</span> <span class="key">as</span> <span class="nam">devicetwo_cube_specialist</span><span class="strut">&nbsp;</span></p>
+<p id="t1" class="stm run hide_run"><span class="key">from</span> <span class="nam">monitor</span><span class="op">.</span><span class="nam">specialists</span><span class="op">.</span><span class="nam">specialist_one</span> <span class="key">import</span> <span class="nam">executor</span> <span class="key">as</span> <span class="nam">specialist_one</span><span class="strut">&nbsp;</span></p>
+<p id="t2" class="stm run hide_run"><span class="key">from</span> <span class="nam">monitor</span><span class="op">.</span><span class="nam">specialists</span><span class="op">.</span><span class="nam">specialist_two</span> <span class="key">import</span> <span class="nam">executor</span> <span class="key">as</span> <span class="nam">specialist_two</span><span class="strut">&nbsp;</span></p>
 <p id="t3" class="pln"><span class="strut">&nbsp;</span></p>
 <p id="t4" class="stm run hide_run"><span class="key">class</span> <span class="nam">ChiefSpecialist</span><span class="op">(</span><span class="nam">object</span><span class="op">)</span><span class="op">:</span><span class="strut">&nbsp;</span></p>
 <p id="t5" class="stm run hide_run">    <span class="key">def</span> <span class="nam">__init__</span><span class="op">(</span><span class="nam">self</span><span class="op">)</span><span class="op">:</span><span class="strut">&nbsp;</span></p>
 <p id="t6" class="stm run hide_run">        <span class="key">pass</span><span class="strut">&nbsp;</span></p>
 <p id="t7" class="pln"><span class="strut">&nbsp;</span></p>
 <p id="t8" class="stm run hide_run">    <span class="key">def</span> <span class="nam">start_operation</span><span class="op">(</span><span class="nam">self</span><span class="op">,</span> <span class="nam">operation</span><span class="op">)</span><span class="op">:</span><span class="strut">&nbsp;</span></p>
-<p id="t9" class="stm run hide_run">        <span class="key">if</span> <span class="nam">operation</span><span class="op">.</span><span class="nam">specialist</span> <span class="op">==</span> <span class="str">'deviceone'</span><span class="op">:</span><span class="strut">&nbsp;</span></p>
+<p id="t9" class="stm run hide_run">        <span class="key">if</span> <span class="nam">operation</span><span class="op">.</span><span class="nam">specialist</span> <span class="op">==</span> <span class="str">'specialist_one'</span><span class="op">:</span><span class="strut">&nbsp;</span></p>
 <p id="t10" class="pln">            <span class="com"># Start monitoring device one</span><span class="strut">&nbsp;</span></p>
-<p id="t11" class="stm run hide_run">            <span class="nam">result</span> <span class="op">=</span> <span class="nam">deviceone_specialist</span><span class="op">.</span><span class="nam">start</span><span class="op">(</span><span class="nam">operation</span><span class="op">)</span><span class="strut">&nbsp;</span></p>
+<p id="t11" class="stm run hide_run">            <span class="nam">result</span> <span class="op">=</span> <span class="nam">specialist_one</span><span class="op">.</span><span class="nam">start</span><span class="op">(</span><span class="nam">operation</span><span class="op">)</span><span class="strut">&nbsp;</span></p>
 <p id="t12" class="pln"><span class="strut">&nbsp;</span></p>
-<p id="t13" class="stm run hide_run">        <span class="key">elif</span> <span class="nam">operation</span><span class="op">.</span><span class="nam">specialist</span> <span class="op">==</span> <span class="str">'devicetwo'</span><span class="op">:</span><span class="strut">&nbsp;</span></p>
+<p id="t13" class="stm run hide_run">        <span class="key">elif</span> <span class="nam">operation</span><span class="op">.</span><span class="nam">specialist</span> <span class="op">==</span> <span class="str">'specialist_one'</span><span class="op">:</span><span class="strut">&nbsp;</span></p>
 <p id="t14" class="pln">            <span class="com"># Start monitoring device two</span><span class="strut">&nbsp;</span></p>
-<p id="t15" class="stm run hide_run">            <span class="nam">result</span> <span class="op">=</span> <span class="nam">devicetwo_cube_specialist</span><span class="op">.</span><span class="nam">start</span><span class="op">(</span><span class="nam">operation</span><span class="op">)</span><span class="strut">&nbsp;</span></p>
+<p id="t15" class="stm mis">            <span class="nam">result</span> <span class="op">=</span> <span class="nam">specialist_two</span><span class="op">.</span><span class="nam">start</span><span class="op">(</span><span class="nam">operation</span><span class="op">)</span><span class="strut">&nbsp;</span></p>
 <p id="t16" class="pln"><span class="strut">&nbsp;</span></p>
 <p id="t17" class="pln">        <span class="key">else</span> <span class="op">:</span><span class="strut">&nbsp;</span></p>
-<p id="t18" class="stm mis">            <span class="key">return</span> <span class="str">"Specialist not found"</span><span class="strut">&nbsp;</span></p>
+<p id="t18" class="stm run hide_run">            <span class="key">return</span> <span class="str">"Specialist not found"</span><span class="strut">&nbsp;</span></p>
 <p id="t19" class="pln"><span class="strut">&nbsp;</span></p>
 <p id="t20" class="stm mis">        <span class="key">return</span> <span class="nam">result</span><span class="strut">&nbsp;</span></p>
 <p id="t21" class="pln"><span class="strut">&nbsp;</span></p>
@@ -122,7 +122,7 @@
     <div class="content">
         <p>
             <a class="nav" href="index.html">&#xab; index</a> &nbsp; &nbsp; <a class="nav" href="https://coverage.readthedocs.io">coverage.py v4.5.1</a>,
-            created at 2018-09-28 18:05
+            created at 2018-10-05 00:29
         </p>
     </div>
 </div>

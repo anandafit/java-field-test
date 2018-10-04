@@ -14,13 +14,13 @@ class TestExample(unittest.TestCase):
         who_ask = WhoAsk()
 
         # Start the operation to monitor
-        who_ask.monitor_deviceone()
-        who_ask.monitor_devicetwo()
+        who_ask.monitor_via_specialist_one()
+        who_ask.monitor_via_specialist_two()
 
 
         who_ask2 = WhoAsk2()
-        who_ask2.monitor_deviceone()
-        who_ask2.monitor_devicetwo()
+        who_ask2.monitor_via_specialist_one()
+        who_ask2.monitor_via_specialist_two()
 
 
 
